@@ -1,5 +1,7 @@
 # CTEC 126 - Project 1
 
+This project is worth 8% of your final grade in CTEC 126.
+
 ## Penguin Nation News
 
 This project will have you code the JavaScript that completes the Penguin Nation News page.
