@@ -11,9 +11,24 @@ function displayQuotesPanel() {
     // Your code goes here (remove this prior to submission)
 
     // This is the array of quotes that you are to use
-    const quotes = ["Nothing is as easy as it looks", "Everything takes longer than you think", "Anything that can go wrong will go wrong", "If there is a possibility of several things going wrong, the one that will cause the most damage will be the one to go wrong", "If there is a worse time for something to go wrong, it will happen then.", "If anything simply cannot go wrong, it will anyway", "If everything seems to be going well, you have obviously overlooked something.", "Nature always sides with the hidden flaw", "It is impossible to make anything foolproof because fools are so ingenious.", "Whenever you set out to do something, something else must be done first", "Every solution breeds new problems.", "Trust everybody ... then cut the cards", "Two wrongs are only the beginning", "If at first you don't succeed, destroy all evidence that you tried", "To succeed in politics, it is often necessary to rise above your principles", "Exceptions prove the rule ... and wreck the budget", "Success always occurs in private, and failure in full view"]
+    const quotes = [
+        "Nothing is as easy as it looks", 
+        "Everything takes longer than you think", 
+        "Anything that can go wrong will go wrong", 
+        "If there is a possibility of several things going wrong, the one that will cause the most damage will be the one to go wrong", 
+        "If there is a worse time for something to go wrong, it will happen then.", 
+        "If anything simply cannot go wrong, it will anyway", 
+        "If everything seems to be going well, you have obviously overlooked something.", 
+        "Nature always sides with the hidden flaw", "It is impossible to make anything foolproof because fools are so ingenious.", 
+        "Whenever you set out to do something, something else must be done first", "Every solution breeds new problems.", 
+        "Trust everybody ... then cut the cards", "Two wrongs are only the beginning", 
+        "If at first you don't succeed, destroy all evidence that you tried", 
+        "To succeed in politics, it is often necessary to rise above your principles", 
+        "Exceptions prove the rule ... and wreck the budget", "Success always occurs in private, and failure in full view"
+    ]
 
     // Create a variable named 'random' and assign it a random number. This number will be used to index into the quotes array
+    // Use the techniques you learned in Module 3 to generate random numbers and to randomly select an element from the quotes array
     // Your code goes here (remove this prior to submission)
 
     // Set the innerHTML of the quotesPanel to the quote and also include <p> tags around it
@@ -27,28 +42,26 @@ function displayNewsPanel() {
     // Your code goes here (remove this prior to submission)
 
     // This is the array of news that you are to use. Note that it is an array of arrays.
-    const news = [['May 22, 2018', 'Really Big News', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'http://clark.edu'], ['May 30, 2018', 'OK News', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'http://clark.edu'], ['June 14, 2018', 'GREAT NEWS!', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'http://clark.edu'], ['July 2, 2018', 'Welcome Back', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'http://clark.edu']]
-
-    // Use this variable to build the output string that you will then use for the news
-    let output = ''
+    const news = [
+        ['May 22, 2018', 'Really Big News', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'http://clark.edu'], 
+        ['May 30, 2018', 'OK News', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'http://clark.edu'], 
+        ['June 14, 2018', 'GREAT NEWS!', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'http://clark.edu'], 
+        ['July 2, 2018', 'Welcome Back', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'http://clark.edu']
+    ]
 
     // Loop through the news array of arrays. No need for nested loops.
-    for (let i = 0; i < news.length; i++) {
-        // Generate the HTML code that you will need to build the news string
-        // Your code goes here (remove this prior to submission)
-    }
-
-    // Add the output to the newsItem element
-    // Your code goes here (remove this prior to submission)
-
+    news.forEach(function(element){
+        // add elements to the page (DOM) using the techniques you learned in Module 3 to make the news raay items appear on the page
+    })
 }
 
 // The displayFeaturedStudentPanel() function is used to populate content in the HTML element with the ID of 'featuredStudentPanel'
 function displayFeaturedStudentPanel() {
-    clear('featuredStudentPanel')
     // Create a variable named 'featuredStudent' that is a handle to the element with the ID of 'featuredStudentPanel'
     // Your code goes here (remove this prior to submission)
-
+    
+    clear('featuredStudentPanel')
+ 
     // This is the arrays for featuredStudents. Note that you are to use. Note that it is an array of arrays.
     const featuredStudents = [
         ['Tommy Henriksen', 'Tommy Henriksen (born February 21, 1964) is an American musician from Port Jefferson, New York best known for his work as a guitarist, bassist and songwriter with Alice Cooper, Hollywood Vampires and German metal band Warlock. He has also fronted punk rockers P.O.L. and released several albums as a solo artist. In addition, Henriksen is a sought-after songwriter, arranger, producer and mixer who has worked with artists such as Lady Gaga, Meat Loaf, Lou Reed, Halestorm, Kesha, and Daughtry. Henriksen is currently based out of Zurich, Switzerland where he lives with his family.', 'img/student1.jpg'],
@@ -57,29 +70,26 @@ function displayFeaturedStudentPanel() {
         ['Alice Cooper', 'Alice Cooper (born Vincent Damon Furnier; February 4, 1948)is an American singer, songwriter, and actor whose career spans over fifty years. With his distinctive raspy voice and a stage show that features guillotines, electric chairs, fake blood, deadly snakes, baby dolls, and dueling swords, Cooper is considered by music journalists and peers alike to be "The Godfather of Shock Rock". He has drawn equally from horror films, vaudeville, and garage rock to pioneer a macabre and theatrical brand of rock designed to shock people.', 'img/student4.jpg']
     ]
 
-    // Use this variable to build the output string that you will then use for the news
-    let output = ''
-
     // Create a variable named 'randomStudent' and assign it a random number. This number will be used to index into the featuredStudents array
-    // Your code goes here (remove this prior to submission)
-
+    
+    // add elements to the page (DOM) using the techniques you learned in Module 3 to make the featured student info appear on the page
     /* Build the HTML to display the featured student
-    Your HTML should include an img tag that has the following class attribute values assigned to it:
-        - class="studentpic rounded mx-auto d-block"
+       Your HTML should include an img tag that has the following class attribute values assigned to it:
+       
+       class="studentpic rounded mx-auto d-block"
+    
        You should also include the name of the student and their bio below the image
-    Your code goes here (remove this prior to submission)
+    
+       Your code goes here (remove this prior to submission)
     */
-
-    // Add the output to the featuredStudent element
-    // Your code goes here (remove this prior to submission)
-
+    
 }
 
 // This function clears out the innerHTML of the element passed in as a parameter
 // There is no coding that you need to do for this function
 function clear(panelID) {
     console.log('clear!')
-    const panel = document.getElementById(panelID)
+    const panel = document.querySelector(panelID)
     panel.innerHTML = ''
 }
 
@@ -94,23 +104,20 @@ function stopIntervals(timer1, timer2) {
 }
 
 // Start the entire process here
-window.onload = function () {
-    displayQuotesPanel()
-    displayNewsPanel()
-    displayFeaturedStudentPanel()
+displayQuotesPanel()
+displayNewsPanel()
+displayFeaturedStudentPanel()
 
-    // Create a new timer using setInterval and assign it to the variable 'quotesTimer'. Have the timer fire off every 15 seconds
-    // Your code goes here (remove this prior to submission)
+// Create a new timer using setInterval and assign it to the variable 'quotesTimer'. Have the timer fire off every 15 seconds
+// Your code goes here (remove this prior to submission)
 
-    // Create a new timer using setInterval and assign it to the variable 'featuredStudentTimer'. Have the timer fire off every 10 seconds
-    // Your code goes here (remove this prior to submission)
+// Create a new timer using setInterval and assign it to the variable 'featuredStudentTimer'. Have the timer fire off every 10 seconds
+// Your code goes here (remove this prior to submission)
 
-    // Get a handle to the logo element with the ID of 'theLogo'
-    // Your code goes here (remove this prior to submission)
+// Get a handle to the logo element with the ID of 'theLogo'
+// Your code goes here (remove this prior to submission)
 
-    // Bind an event listener to the click event of 'theLogo'
-    // The anonymous function should then include this statement:
-    // stopIntervals(quotesTimer,featuredStudentTimer);
-    // Your code goes here (remove this prior to submission)
-
-}
+// Bind an event listener to the click event of 'theLogo'
+// The anonymous function should then include this statement:
+// stopIntervals(quotesTimer,featuredStudentTimer);
+// Your code goes here (remove this prior to submission)
