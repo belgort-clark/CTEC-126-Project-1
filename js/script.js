@@ -1,5 +1,5 @@
 // script.js
-// Weekly assignment no. 2
+// Project 1
 
 // The displayQuotesPanel function is used to display a random quote from the array in the HTML element that has the ID of 'quotesPanel'
 function displayQuotesPanel() {
