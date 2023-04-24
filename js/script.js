@@ -1,9 +1,9 @@
 // script.js
-// Project 1
+// CTEC 126 Project 1
 
 // The displayQuotesPanel function is used to display a random quote from the array in the HTML element that has the ID of 'quotesPanel'
 function displayQuotesPanel() {
-    console.log('Quotes function called')
+    console.log('Quotes function called');
     // Call the clear() function with 'quotesPanel' as a paremeter 
     // Your code goes here (remove this prior to submission)
 
@@ -25,13 +25,13 @@ function displayQuotesPanel() {
         "If at first you don't succeed, destroy all evidence that you tried", 
         "To succeed in politics, it is often necessary to rise above your principles", 
         "Exceptions prove the rule ... and wreck the budget", "Success always occurs in private, and failure in full view"
-    ]
+    ];
 
     // Create a variable named 'random' and assign it a random number. This number will be used to index into the quotes array
     // Use the techniques you learned in Module 3 to generate random numbers and to randomly select an element from the quotes array
     // Your code goes here (remove this prior to submission)
 
-    // Set the innerHTML of the quotesPanel to the quote and also include <p> tags around it
+    // Set the innerHTML of the quotesPanel to the quote and also include <p> tags around each quote
     // Your code goes here (remove this prior to submission)
 
 }
@@ -43,16 +43,16 @@ function displayNewsPanel() {
 
     // This is the array of news that you are to use. Note that it is an array of arrays.
     const news = [
-        ['May 22, 2018', 'Really Big News', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'http://clark.edu'], 
-        ['May 30, 2018', 'OK News', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'http://clark.edu'], 
-        ['June 14, 2018', 'GREAT NEWS!', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'http://clark.edu'], 
-        ['July 2, 2018', 'Welcome Back', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'http://clark.edu']
-    ]
+        ['May 22, 2023', 'Really Big News', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'https://clark.edu'], 
+        ['May 30, 2023', 'OK News', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'https://clark.edu'], 
+        ['June 14, 2023', 'GREAT NEWS!', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'https://clark.edu'], 
+        ['July 2, 2023', 'Welcome Back', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'https://clark.edu']
+    ];
 
     // Loop through the news array of arrays. No need for nested loops.
     news.forEach(function(element){
         // add elements to the page (DOM) using the techniques you learned in Module 3 to make the news raay items appear on the page
-    })
+    });
 }
 
 // The displayFeaturedStudentPanel() function is used to populate content in the HTML element with the ID of 'featuredStudentPanel'
@@ -60,7 +60,7 @@ function displayFeaturedStudentPanel() {
     // Create a variable named 'featuredStudent' that is a handle to the element with the ID of 'featuredStudentPanel'
     // Your code goes here (remove this prior to submission)
     
-    clear('featuredStudentPanel')
+    clear('featuredStudentPanel');
  
     // This is the arrays for featuredStudents. Note that you are to use. Note that it is an array of arrays.
     const featuredStudents = [
@@ -68,19 +68,19 @@ function displayFeaturedStudentPanel() {
         ['John Bonham', 'John Henry Bonham (31 May 1948 – 25 September 1980) was an English musician and songwriter, best known as the drummer for the British rock band Led Zeppelin. Bonham was esteemed for his speed, power, fast bass drumming, distinctive sound, and "feel" for the groove. He is regarded as the greatest and most influential rock drummer of all time. Rolling Stone magazine ranked him number 1 in their list of the "100 Greatest Drummers of All Time."', 'img/student2.jpg'],
         ['Dave Matthews', 'David John Matthews (born January 9, 1967) is a South African-born American singer-songwriter, musician and actor, best known as the lead vocalist, songwriter, and guitarist for the Dave Matthews Band. Matthews was born in Johannesburg, and moved frequently between South Africa, the United Kingdom, and the United States while growing up. Matthews mainly plays acoustic guitar, which he started playing at the age of nine.', 'img/student3.jpg'],
         ['Alice Cooper', 'Alice Cooper (born Vincent Damon Furnier; February 4, 1948)is an American singer, songwriter, and actor whose career spans over fifty years. With his distinctive raspy voice and a stage show that features guillotines, electric chairs, fake blood, deadly snakes, baby dolls, and dueling swords, Cooper is considered by music journalists and peers alike to be "The Godfather of Shock Rock". He has drawn equally from horror films, vaudeville, and garage rock to pioneer a macabre and theatrical brand of rock designed to shock people.', 'img/student4.jpg']
-    ]
+    ];
 
     // Create a variable named 'randomStudent' and assign it a random number. This number will be used to index into the featuredStudents array
     
     // add elements to the page (DOM) using the techniques you learned in Module 3 to make the featured student info appear on the page
     /* Build the HTML to display the featured student
-       Your HTML should include an img tag that has the following class attribute values assigned to it:
-       
-       class="studentpic rounded mx-auto d-block"
+    Your HTML should include an img tag that has the following class attribute values assigned to it:
     
-       You should also include the name of the student and their bio below the image
+    class="studentpic rounded mx-auto d-block"
     
-       Your code goes here (remove this prior to submission)
+    You should also include the name of the student and their bio below the image
+    
+    Your code goes here (remove this prior to submission)
     */
     
 }
@@ -88,36 +88,42 @@ function displayFeaturedStudentPanel() {
 // This function clears out the innerHTML of the element passed in as a parameter
 // There is no coding that you need to do for this function
 function clear(panelID) {
-    console.log('clear!')
-    const panel = document.querySelector(panelID)
-    panel.innerHTML = ''
+    console.log('clear!');
+    const panel = document.querySelector(panelID);
+    panel.innerHTML = '';
 }
 
 // This function takes two parameters that are handles to timers
 function stopIntervals(timer1, timer2) {
-    console.log('Stopping intervals...')
+    console.log('Stopping intervals...');
     // Write two statements that will stop timer1 and timer2
     // Your code goes here (remove this prior to submission)
 
 
-    console.log('All intervals have been stopped')
+    console.log('All intervals have been stopped');
 }
 
 // Start the entire process here
-displayQuotesPanel()
-displayNewsPanel()
-displayFeaturedStudentPanel()
+window.addEventListener("DOMContentLoaded",()=> {
+    displayQuotesPanel();
+    displayNewsPanel();
+    displayFeaturedStudentPanel();
 
-// Create a new timer using setInterval and assign it to the variable 'quotesTimer'. Have the timer fire off every 15 seconds
-// Your code goes here (remove this prior to submission)
+    // Create a new timer using setInterval and assign it to the variable 'quotesTimer'.
+    // The timer must fire off every 15 seconds.
+    // Your code goes here (remove this prior to submission)
 
-// Create a new timer using setInterval and assign it to the variable 'featuredStudentTimer'. Have the timer fire off every 10 seconds
-// Your code goes here (remove this prior to submission)
+    // Create a new timer using setInterval and assign it to the variable 'featuredStudentTimer'. 
+    // The timer must fire off every 10 seconds
+    // Your code goes here (remove this prior to submission)
 
-// Get a handle to the logo element with the ID of 'theLogo'
-// Your code goes here (remove this prior to submission)
+    // Get a handle to the logo element with the ID of 'theLogo'
+    // Your code goes here (remove this prior to submission)
 
-// Bind an event listener to the click event of 'theLogo'
-// The anonymous function should then include this statement:
-// stopIntervals(quotesTimer,featuredStudentTimer);
-// Your code goes here (remove this prior to submission)
+    // Bind an event listener to the click event of 'theLogo'
+    // The anonymous function should then include this statement:
+    // stopIntervals(quotesTimer,featuredStudentTimer);
+    // Your code goes here (remove this prior to submission)
+
+
+});
