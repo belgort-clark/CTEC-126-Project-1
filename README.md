@@ -41,6 +41,11 @@ Here are some things that you should know about the page:
 
 - Change the YOUR NAME GOES HERE to your name
 
+### Accessiblity Testing
+
+- Your page must not contain any WAVE Errors, Contrast Errors or Alerts
+- Your page must not contain any Accessibility Insights FastPass errors
+
 ### Submit the Assignment
 
 - Save, Stage, Commit and Push your work back to GitHub
@@ -55,3 +60,4 @@ Here are some things that you should know about the page:
 | The featured student is displayed and switching every 10 seconds | 20         | 10            | 0        |
 | Clicking on the logo stops the intervals                         | 20         | 10            | 0        |
 | The code in the DOMContentLoaded is working correctly            | 20         | 10            | 0        |
+| The code must pass all Accessiblity Tests as outlined above      | 20         | 10            | 0        |
