@@ -61,7 +61,7 @@ function displayFeaturedStudentPanel() {
     // Your code goes here (remove this prior to submission)
     
     clear('featuredStudentPanel');
- 
+
     // This is the arrays for featuredStudents. Note that you are to use. Note that it is an array of arrays.
     const featuredStudents = [
         ['Tommy Henriksen', 'Tommy Henriksen (born February 21, 1964) is an American musician from Port Jefferson, New York best known for his work as a guitarist, bassist and songwriter with Alice Cooper, Hollywood Vampires and German metal band Warlock. He has also fronted punk rockers P.O.L. and released several albums as a solo artist. In addition, Henriksen is a sought-after songwriter, arranger, producer and mixer who has worked with artists such as Lady Gaga, Meat Loaf, Lou Reed, Halestorm, Kesha, and Daughtry. Henriksen is currently based out of Zurich, Switzerland where he lives with his family.', 'img/student1.jpg'],
