@@ -53,11 +53,11 @@ Here are some things that you should know about the page:
 
 ## Grading Rubric
 
-| Item                                                             | Full Marks | Partial Marks | No Marks |
-|:-----------------------------------------------------------------|:-----------|:--------------|:---------|
-| Random quotes are displayed every 15 seconds                     | 20         | 10            | 0        |
-| The news entries are displayed and formatted                     | 20         | 10            | 0        |
-| The featured student is displayed and switching every 10 seconds | 20         | 10            | 0        |
-| Clicking on the logo stops the intervals                         | 20         | 10            | 0        |
-| The code in the DOMContentLoaded is working correctly            | 20         | 10            | 0        |
-| The code must pass all Accessiblity Tests as outlined above      | 20         | 10            | 0        |
+| Item                                                                                        | Full Marks | Partial Marks | No Marks |
+|:--------------------------------------------------------------------------------------------|:-----------|:--------------|:---------|
+| Random quotes are displayed every 15 seconds                                                | 20         | 10            | 0        |
+| The news entries are displayed and formatted                                                | 20         | 10            | 0        |
+| The featured student is displayed and switching every 10 seconds                            | 20         | 10            | 0        |
+| Clicking on the logo stops the intervals                                                    | 20         | 10            | 0        |
+| The code in the DOMContentLoaded is working correctly                                       | 20         | 10            | 0        |
+| The code must pass all WAVE and Accessibility Insights Accessiblity Tests as outlined above | 20         | 10            | 0        |
