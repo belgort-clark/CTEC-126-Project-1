@@ -1,10 +1,10 @@
 // script.js
-// CTEC 126 Project 1
+// CTEC 126 Project 1 - 2024
 
 // The displayQuotesPanel function is used to display a random quote from the array in the HTML element that has the ID of 'quotesPanel'
-function displayQuotesPanel() {
+const displayQuotesPanel = () => {
     console.log('Quotes function called');
-    // Call the clear() function with 'quotesPanel' as a paremeter 
+    // Call the clear() function with 'quotesPanel' as a parameter 
     // Your code goes here (remove this prior to submission)
 
     // Create a variable named 'quotesPanel' that is a handle to the element with the ID of 'quotesPanel'
@@ -37,26 +37,26 @@ function displayQuotesPanel() {
 }
 
 // The displayNewsPanel() function is used to populate content in the HTML element with the ID of 'newsPanel'
-function displayNewsPanel() {
+const displayNewsPanel = () => {
     // Create a variable named 'newsItems' that is a handle to the element with the ID of 'newsPanel'
     // Your code goes here (remove this prior to submission)
 
     // This is the array of news that you are to use. Note that it is an array of arrays.
     const news = [
-        ['May 22, 2023', 'Really Big News', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'https://clark.edu'], 
-        ['May 30, 2023', 'OK News', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'https://clark.edu'], 
-        ['June 14, 2023', 'GREAT NEWS!', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'https://clark.edu'], 
-        ['July 2, 2023', 'Welcome Back', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto provident sit vero, eius fugiat autem laboriosam, molestiae, quidem incidunt ducimus reiciendis fugit illo quisquam. Autem, veniam voluptas officia incidunt.', 'https://clark.edu']
+        ['May 22, 2024', 'Clark College Unveils Groundbreaking Research Facility', 'Clark College announces the inauguration of a state-of-the-art research facility aimed at revolutionizing scientific discovery. The facility promises to provide students with cutting-edge tools and resources to pursue innovative research projects.', 'https://clark.edu'],
+        ['May 30, 2024', 'Clark College Introduces New Sustainability Initiatives', 'Clark College introduces a series of sustainability initiatives to promote eco-friendly practices on campus. These efforts align with the college\'s commitment to environmental responsibility and creating a greener campus community.', 'https://clark.edu'],
+        ['June 14, 2024', 'Clark College Celebrates Record Enrollment Numbers', 'Clark College celebrates a historic milestone with record-breaking enrollment numbers for the upcoming academic year. The growing student body reflects the college\'s reputation for academic excellence and community engagement.', 'https://clark.edu'],
+        ['September 21, 2024', 'Clark College Welcomes Students Back With Exciting Events', 'Clark College kicks off the new semester with a warm welcome back event for students, featuring engaging activities and opportunities to connect with fellow classmates. The initiative aims to foster a sense of community and belonging among students.', 'https://clark.edu']
     ];
 
     // Loop through the news array of arrays. No need for nested loops.
-    news.forEach(function(element){
-        // add elements to the page (DOM) using the techniques you learned in Module 3 to make the news raay items appear on the page
+    news.forEach((element) => {
+        // add elements to the page (DOM) using the techniques you learned in Module 3 to make the news array of items appear on the page
     });
 }
 
 // The displayFeaturedStudentPanel() function is used to populate content in the HTML element with the ID of 'featuredStudentPanel'
-function displayFeaturedStudentPanel() {
+const displayFeaturedStudentPanel = () => {
     // Create a variable named 'featuredStudent' that is a handle to the element with the ID of 'featuredStudentPanel'
     // Your code goes here (remove this prior to submission)
     
@@ -87,14 +87,14 @@ function displayFeaturedStudentPanel() {
 
 // This function clears out the innerHTML of the element passed in as a parameter
 // There is no coding that you need to do for this function
-function clear(panelID) {
+const clear = (panelID) => {
     console.log('clear!');
     const panel = document.querySelector(panelID);
     panel.innerHTML = '';
 }
 
 // This function takes two parameters that are handles to timers
-function stopIntervals(timer1, timer2) {
+const stopIntervals = (timer1, timer2) => {
     console.log('Stopping intervals...');
     // Write two statements that will stop timer1 and timer2
     // Your code goes here (remove this prior to submission)

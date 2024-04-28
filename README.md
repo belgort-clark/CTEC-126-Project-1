@@ -13,7 +13,7 @@ Here are some things that you should know about the page:
 ### What the page must look like
 
 - Here is what the completed [page needs to look like](visual.png)
-- The page uses Bootstrap and is fully responsive. Use it as a tool to learn a little bit about how Boostrap works.
+- The page uses Bootstrap and is fully responsive. Use it as a tool to learn a little bit about how Bootstrap works.
 
 ### What's in the Box (the code you have been provied)
 
@@ -28,6 +28,7 @@ Here are some things that you should know about the page:
 ### Displaying the News
 
 - The page must display a neatly formatted list of the items from the **news array** in on the web page under the **News** section.
+- The links must NOT be the Bootstrap blue color. Use a Bootstrap class to change them or use CSS. I know they are the Bootstrap blue color in the ![visual.png](visual.png).
 
 ### Displaying the Featured Student
 
@@ -41,7 +42,7 @@ Here are some things that you should know about the page:
 
 - Change the YOUR NAME GOES HERE to your name
 
-### Accessiblity Testing
+### Accessibility Testing
 
 - Your page must not contain any WAVE Errors, Contrast Errors or Alerts
 - Your page must not contain any Accessibility Insights FastPass errors
@@ -53,11 +54,11 @@ Here are some things that you should know about the page:
 
 ## Grading Rubric
 
-| Item                                                                                        | Full Marks | Partial Marks | No Marks |
-|:--------------------------------------------------------------------------------------------|:-----------|:--------------|:---------|
-| Random quotes are displayed every 15 seconds                                                | 20         | 10            | 0        |
-| The news entries are displayed and formatted                                                | 20         | 10            | 0        |
-| The featured student is displayed and switching every 10 seconds                            | 20         | 10            | 0        |
-| Clicking on the logo stops the intervals                                                    | 20         | 10            | 0        |
-| The code in the DOMContentLoaded is working correctly                                       | 20         | 10            | 0        |
-| The code must pass all WAVE and Accessibility Insights Accessiblity Tests as outlined above | 20         | 10            | 0        |
+| Item                                                                                         | Full Marks | Partial Marks | No Marks |
+|:---------------------------------------------------------------------------------------------|:-----------|:--------------|:---------|
+| Random quotes are displayed every 15 seconds                                                 | 20         | 10            | 0        |
+| The news entries are displayed and formatted                                                 | 20         | 10            | 0        |
+| The featured student is displayed and switching every 10 seconds                             | 20         | 10            | 0        |
+| Clicking on the logo stops the intervals                                                     | 20         | 10            | 0        |
+| The code in the DOMContentLoaded is working correctly                                        | 20         | 10            | 0        |
+| The code must pass all WAVE and Accessibility Insights Accessibility Tests as outlined above | 20         | 10            | 0        |
