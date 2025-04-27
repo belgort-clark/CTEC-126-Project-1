@@ -28,7 +28,7 @@ Here are some things that you should know about the page:
 ### Displaying the News
 
 - The page must display a neatly formatted list of the items from the **news array** in on the web page under the **News** section.
-- The links must NOT be the Bootstrap blue color. Use a Bootstrap class to change them or use CSS. I know they are the Bootstrap blue color in the ![visual.png](visual.png).
+- The links must NOT be the Bootstrap blue color. Use a Bootstrap class to change them or use CSS. I know they are the Bootstrap blue color in the ![visual.png](visual.png)
 
 ### Displaying the Featured Student
 
@@ -55,7 +55,7 @@ Here are some things that you should know about the page:
 ## Grading Rubric
 
 | Item                                                                                         | Full Marks | Partial Marks | No Marks |
-|:---------------------------------------------------------------------------------------------|:-----------|:--------------|:---------|
+| :------------------------------------------------------------------------------------------- | :--------- | :------------ | :------- |
 | Random quotes are displayed every 15 seconds                                                 | 20         | 10            | 0        |
 | The news entries are displayed and formatted                                                 | 20         | 10            | 0        |
 | The featured student is displayed and switching every 10 seconds                             | 20         | 10            | 0        |
